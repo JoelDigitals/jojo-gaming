@@ -26,10 +26,11 @@ SECRET_KEY = 'django-insecure-%1m+8a*o3a+*k-v%0n9u0%4&24q4rflh360l8&w6jlc4j=@t3w
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'jojo-gaming.onrender.com'
+    'jojo-gaming.onrender.com',
     'localhost',
-    '127:0.0.1',
+    '127.0.0.1',
 ]
+
 
 
 # Application definition
