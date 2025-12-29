@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Jojo Gaming Team – Mitgliederbereich</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        :root {
+            --bg: #0f1220;
+            --card: #1a1f3c;
+            --accent: #6c7cff;
+            --text: #e6e6f0;
+            --muted: #a0a3c4;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", system-ui, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f1220, #15193a);
+            color: var(--text);
+            min-height: 100vh;
+        }
+
+        header {
+            padding: 60px 20px 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 12px;
+            color: #ffffff;
+        }
+
+        header p {
+            color: var(--muted);
+            font-size: 1.05rem;
+            max-width: 650px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: var(--card);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 12px 32px rgba(0,0,0,0.35);
+        }
+
+        .card h2 {
+            margin-bottom: 12px;
+            color: #ffffff;
+        }
+
+        .card p {
+            color: var(--muted);
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 22px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 24px;
+            border-radius: 14px;
+            background: var(--accent);
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.2s ease, transform 0.2s ease;
+        }
+
+        .btn:hover {
+            background: #5a69f5;
+            transform: translateY(-2px);
+        }
+
+        .info {
+            margin-top: 28px;
+            padding: 18px;
+            border-radius: 14px;
+            background: rgba(255,255,255,0.04);
+            font-size: 0.9rem;
+            color: var(--muted);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px 40px;
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Jojo Gaming Team</h1>
+    <p>
+        Dies ist der interne Mitgliederbereich des Jojo Gaming Teams.<br>
+        Der Zugriff erfolgt ausschließlich über unseren Discord.
+    </p>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h2>🔐 Mitgliederzugang</h2>
+        <p>
+            Diese Seite dient als zentrale Anlaufstelle für Teammitglieder.<br>
+            <strong>Ein direkter Login auf dieser Seite ist nicht möglich.</strong><br><br>
+            Der Zugang zum internen Management-System erfolgt über das
+            <strong>JDS Management</strong>. Die Registrierung wird separat
+            durch das Team freigeschaltet.
+        </p>
+
+        <a href="https://www.jds-management.de/login/"
+           class="btn"
+           target="_blank"
+           rel="noopener">
+            Zum JDS Management Login
+        </a>
+
+        <div class="info">
+            ℹ️ Hinweis: Falls du noch keinen Zugang hast, wende dich bitte über
+            den offiziellen Discord an das Team-Management.
+        </div>
+    </div>
+    <div class="card">
+        <h2>Team Banner</h2>
+        <p>
+            Hier findet ihr unser banner wo <strong>alle Stramer</strong> zu finden sind.<br><br>
+            Dieses Banner ist zum einbetten in den Stream, Homepage ect. Dafür einfach dir URl Kopieren und einbetten lassen,
+        </p>
+
+        <a href="https://jojo-gaming.onrender.com/banner/"
+           class="btn"
+           target="_blank"
+           rel="noopener">
+            Zum Jojo Gaming TEAM Banner
+        </a>
+    </div>
+</div>
+
+<footer>
+    © 2025 Jojo Gaming Team · Members Area
+</footer>
+
+</body>
+</html>
